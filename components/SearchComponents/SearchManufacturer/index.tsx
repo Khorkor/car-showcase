@@ -54,7 +54,7 @@ const SearchManufacturer = ({
                   value={query}
                   className="search-manufacturer__option text-red-600"
                 >
-                  Manufacturer doesn't exist!
+                  Manufacturer doesn&apos;t exist!
                 </Combobox.Option>
               ) : (
                 filteredManufacturers.map((item) => (
